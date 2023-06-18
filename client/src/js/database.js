@@ -22,7 +22,7 @@ export const putDb = async (content) => {
   // open desired object store
   const store = tx.objectStore('jate');
   // put method 
-  const request = store.put({id: 1, type: content});
+  const request = store.put({id: 1, value: content});
   
   const result = await request;
   console.log('Data saved to the database', result);
@@ -38,7 +38,7 @@ export const getDb = async () => {
   // open desired object store
   const store = tx.objectStore('jate');
   // get method to get data fro, the database
-  const request = store.get(1);
+  const request = store.getAll();
   
   const result = await request;
   // return statement with a optional chaining operator(?)
