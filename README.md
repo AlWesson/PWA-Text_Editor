@@ -4,6 +4,7 @@
 
 Offline functioning text editor! 
 
+![alt text](https://raw.githubusercontent.com/AlWesson/PWA-Text_Editor/master/client/src/images/)
 
 ## Table of Contents
  - [Deployed_Link](#Deployed_Link)
