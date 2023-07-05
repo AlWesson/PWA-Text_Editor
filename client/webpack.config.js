@@ -29,7 +29,7 @@ module.exports = () => {
         inject: true,
         name: 'Just Another Text Editor',
         short_name: 'JATE',
-        description: 'Just another text editor',
+        description: 'PWA offline text editor',
         background_color: '#2e2e29',
         theme_color: '#2e2e29',
         start_url: '/',
@@ -52,7 +52,7 @@ module.exports = () => {
     module: {
       rules: [
         {
-          test: /\.css$/i,
+          test: /\.css$/,
           use: ['style-loader', 'css-loader']
         },
         {
